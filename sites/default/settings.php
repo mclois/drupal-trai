@@ -5,6 +5,10 @@
  */
 $settings['container_yamls'][] = __DIR__ . '/services.yml';
 
+$settings['trusted_host_patterns'] = [
+  '^dev-drupal-trai\.pantheonsite\.io$',
+];
+
 /**
  * Include the Pantheon-specific settings file.
  *
